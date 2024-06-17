@@ -1,17 +1,28 @@
 body {
+    background-image: url(background.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     font-family: "Montserrat", sans-serif;
     color: white;
-    background-color: black;
     width: 50%;
 }
 .format_field {
     position: relative;
-    left: 51%;
+    left: 54%;
+    width: 80%;
     text-align: center;
-    border: 1px solid white;
-    padding: 1em;
-    margin-bottom: 1em;
+    border: 2px solid white;
     border-radius: 5px;
+    padding: 1em;
+    margin: 1em;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 #title {
     border: 2px solid lightsalmon;
@@ -20,4 +31,7 @@ body {
 }
 img {
     width: 50px;
+}
+a:hover {
+    color: aqua;
 }
